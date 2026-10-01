@@ -1,0 +1,287 @@
+{
+  "date": "2026-10-01T16:15:18.600Z",
+  "passed": 56,
+  "total": 56,
+  "tests": [
+    {
+      "name": "perft Start, depth 1",
+      "pass": true,
+      "ms": 2
+    },
+    {
+      "name": "perft Start, depth 2",
+      "pass": true,
+      "ms": 4
+    },
+    {
+      "name": "perft Start, depth 3",
+      "pass": true,
+      "ms": 27
+    },
+    {
+      "name": "perft Start, depth 4",
+      "pass": true,
+      "ms": 115
+    },
+    {
+      "name": "perft Start, depth 5",
+      "pass": true,
+      "ms": 1179
+    },
+    {
+      "name": "perft Kiwipete, depth 1",
+      "pass": true,
+      "ms": 0
+    },
+    {
+      "name": "perft Kiwipete, depth 2",
+      "pass": true,
+      "ms": 4
+    },
+    {
+      "name": "perft Kiwipete, depth 3",
+      "pass": true,
+      "ms": 31
+    },
+    {
+      "name": "perft Kiwipete, depth 4",
+      "pass": true,
+      "ms": 1625
+    },
+    {
+      "name": "perft Rook + pawn ending, depth 1",
+      "pass": true,
+      "ms": 0
+    },
+    {
+      "name": "perft Rook + pawn ending, depth 2",
+      "pass": true,
+      "ms": 0
+    },
+    {
+      "name": "perft Rook + pawn ending, depth 3",
+      "pass": true,
+      "ms": 1
+    },
+    {
+      "name": "perft Rook + pawn ending, depth 4",
+      "pass": true,
+      "ms": 21
+    },
+    {
+      "name": "perft Rook + pawn ending, depth 5",
+      "pass": true,
+      "ms": 211
+    },
+    {
+      "name": "perft Promotion / castling checks, depth 1",
+      "pass": true,
+      "ms": 0
+    },
+    {
+      "name": "perft Promotion / castling checks, depth 2",
+      "pass": true,
+      "ms": 0
+    },
+    {
+      "name": "perft Promotion / castling checks, depth 3",
+      "pass": true,
+      "ms": 2
+    },
+    {
+      "name": "perft Promotion / castling checks, depth 4",
+      "pass": true,
+      "ms": 166
+    },
+    {
+      "name": "perft Tactical promotion position, depth 1",
+      "pass": true,
+      "ms": 0
+    },
+    {
+      "name": "perft Tactical promotion position, depth 2",
+      "pass": true,
+      "ms": 1
+    },
+    {
+      "name": "perft Tactical promotion position, depth 3",
+      "pass": true,
+      "ms": 17
+    },
+    {
+      "name": "perft Tactical promotion position, depth 4",
+      "pass": true,
+      "ms": 839
+    },
+    {
+      "name": "perft Middlegame checks, depth 1",
+      "pass": true,
+      "ms": 0
+    },
+    {
+      "name": "perft Middlegame checks, depth 2",
+      "pass": true,
+      "ms": 1
+    },
+    {
+      "name": "perft Middlegame checks, depth 3",
+      "pass": true,
+      "ms": 19
+    },
+    {
+      "name": "perft Middlegame checks, depth 4",
+      "pass": true,
+      "ms": 1348
+    },
+    {
+      "name": "Stockfish extra fixture, depth 5, 11,609,488 nodes",
+      "pass": true,
+      "ms": 3342
+    },
+    {
+      "name": "Start position has 32 pieces / 16 per side",
+      "pass": true,
+      "ms": 0
+    },
+    {
+      "name": "Illegal move rejected, state unchanged",
+      "pass": true,
+      "ms": 1
+    },
+    {
+      "name": "Both white castlings and undo",
+      "pass": true,
+      "ms": 0
+    },
+    {
+      "name": "Black queenside castling",
+      "pass": true,
+      "ms": 0
+    },
+    {
+      "name": "Cannot castle through check",
+      "pass": true,
+      "ms": 0
+    },
+    {
+      "name": "Cannot castle while in check",
+      "pass": true,
+      "ms": 0
+    },
+    {
+      "name": "Cannot castle with a missing rook despite malformed rights",
+      "pass": true,
+      "ms": 0
+    },
+    {
+      "name": "Rook move permanently revokes its castling right",
+      "pass": true,
+      "ms": 0
+    },
+    {
+      "name": "Legal en passant, captured pawn removed, undo exact",
+      "pass": true,
+      "ms": 0
+    },
+    {
+      "name": "En passant exposing own king is illegal",
+      "pass": true,
+      "ms": 0
+    },
+    {
+      "name": "En passant expires after any intervening move",
+      "pass": true,
+      "ms": 0
+    },
+    {
+      "name": "Pinned rook cannot expose king",
+      "pass": true,
+      "ms": 0
+    },
+    {
+      "name": "Double check permits only king moves",
+      "pass": true,
+      "ms": 0
+    },
+    {
+      "name": "Four promotion choices and knight underpromotion",
+      "pass": true,
+      "ms": 0
+    },
+    {
+      "name": "SAN disambiguation",
+      "pass": true,
+      "ms": 0
+    },
+    {
+      "name": "Fools mate, checkmate, result side",
+      "pass": true,
+      "ms": 1
+    },
+    {
+      "name": "Stalemate is a draw, not checkmate",
+      "pass": true,
+      "ms": 0
+    },
+    {
+      "name": "3-fold is claimable, not auto; 5-fold automatic",
+      "pass": true,
+      "ms": 1
+    },
+    {
+      "name": "Prospective third repetition claim",
+      "pass": true,
+      "ms": 1
+    },
+    {
+      "name": "50-move claim and prospective claim",
+      "pass": true,
+      "ms": 0
+    },
+    {
+      "name": "75 moves automatic, mate has priority",
+      "pass": true,
+      "ms": 0
+    },
+    {
+      "name": "Common insufficient material and not KNN vs K",
+      "pass": true,
+      "ms": 0
+    },
+    {
+      "name": "Save/replay preserves repetition state and history",
+      "pass": true,
+      "ms": 1
+    },
+    {
+      "name": "Random legal walks fully undo",
+      "pass": true,
+      "ms": 63
+    },
+    {
+      "name": "PGN SAN contains castling, headers, result",
+      "pass": true,
+      "ms": 1
+    },
+    {
+      "name": "AI easy finds mate in one without mutating state",
+      "pass": true,
+      "ms": 2
+    },
+    {
+      "name": "AI normal finds mate in one without mutating state",
+      "pass": true,
+      "ms": 1
+    },
+    {
+      "name": "AI hard finds mate in one without mutating state",
+      "pass": true,
+      "ms": 1
+    },
+    {
+      "name": "AI bounded normal/hard return legal moves with distinct depth policies",
+      "pass": true,
+      "ms": 823
+    }
+  ]
+}

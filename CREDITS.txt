@@ -1,0 +1,22 @@
+CHESS BEYOND — Neon Arena
+
+Giao diện, bộ luật và AI được viết riêng cho bản bàn giao này bằng HTML/CSS/JavaScript thuần.
+Không đóng gói framework, chess.js, Stockfish hoặc thư viện bên ngoài.
+
+Artwork:
+- Sử dụng các ảnh quân cờ/chiến trường do người dùng cung cấp trong cuộc trò chuyện.
+- Tách 10 sprite từ sheet và bổ sung 2 biến thể Tốt từ ảnh chiến trường.
+- Viền chiến trường đã loại bỏ bàn cờ và quân cờ có sẵn; bàn 8x8 và các quân sống được dựng riêng.
+- Các PNG quân cờ có nền trong suốt thật, không có nền caro giả.
+
+Bản bàn giao không xác nhận hoặc cấp lại quyền sở hữu đối với artwork nguồn. Cần kiểm tra quyền dùng artwork khi phát hành công khai hoặc thương mại.
+
+Đối chiếu kiểm thử:
+Stockfish public perft regression positions/counts (dữ liệu vị trí và số nhánh, không sử dụng mã engine Stockfish):
+https://github.com/official-stockfish/Stockfish/blob/master/tests/perft.sh
+
+Nguồn tham khảo quy tắc:
+FIDE Laws of Chess:
+https://handbook.fide.com/chapter/E012023
+
+Ghi chú: Không gửi thông tin người chơi, nước đi hoặc bản lưu tới các địa chỉ trên.

@@ -1,0 +1,112 @@
+{
+  "purple-king": {
+    "file": "purple-king.png",
+    "width": 256,
+    "height": 416,
+    "anchor": [
+      0.5,
+      0.9615384615384616
+    ]
+  },
+  "purple-queen": {
+    "file": "purple-queen.png",
+    "width": 256,
+    "height": 416,
+    "anchor": [
+      0.5,
+      0.9615384615384616
+    ]
+  },
+  "purple-rook": {
+    "file": "purple-rook.png",
+    "width": 256,
+    "height": 416,
+    "anchor": [
+      0.5,
+      0.9615384615384616
+    ]
+  },
+  "purple-bishop": {
+    "file": "purple-bishop.png",
+    "width": 256,
+    "height": 416,
+    "anchor": [
+      0.5,
+      0.9615384615384616
+    ]
+  },
+  "purple-knight": {
+    "file": "purple-knight.png",
+    "width": 256,
+    "height": 416,
+    "anchor": [
+      0.5,
+      0.9615384615384616
+    ]
+  },
+  "blue-king": {
+    "file": "blue-king.png",
+    "width": 256,
+    "height": 416,
+    "anchor": [
+      0.5,
+      0.9615384615384616
+    ]
+  },
+  "blue-queen": {
+    "file": "blue-queen.png",
+    "width": 256,
+    "height": 416,
+    "anchor": [
+      0.5,
+      0.9615384615384616
+    ]
+  },
+  "blue-rook": {
+    "file": "blue-rook.png",
+    "width": 256,
+    "height": 416,
+    "anchor": [
+      0.5,
+      0.9615384615384616
+    ]
+  },
+  "blue-bishop": {
+    "file": "blue-bishop.png",
+    "width": 256,
+    "height": 416,
+    "anchor": [
+      0.5,
+      0.9615384615384616
+    ]
+  },
+  "blue-knight": {
+    "file": "blue-knight.png",
+    "width": 256,
+    "height": 416,
+    "anchor": [
+      0.5,
+      0.9615384615384616
+    ]
+  },
+  "purple-pawn": {
+    "file": "purple-pawn.png",
+    "width": 256,
+    "height": 416,
+    "anchor": [
+      0.5,
+      0.9615384615384616
+    ],
+    "source": "Cropped from supplied battlefield; blue faction recolored."
+  },
+  "blue-pawn": {
+    "file": "blue-pawn.png",
+    "width": 256,
+    "height": 416,
+    "anchor": [
+      0.5,
+      0.9615384615384616
+    ],
+    "source": "Cropped from supplied battlefield; blue faction recolored."
+  }
+}

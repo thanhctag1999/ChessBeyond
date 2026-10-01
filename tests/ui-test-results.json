@@ -1,0 +1,184 @@
+{
+  "date": "2026-10-01T16:18:27",
+  "browser": "Chromium headless; set_content about:blank; localStorage stub for persistence tests; direct file/http navigation blocked by environment policy.",
+  "passed": 35,
+  "total": 35,
+  "tests": [
+    {
+      "name": "Initial 64 cells, 32 pieces, all images decoded",
+      "pass": true,
+      "ms": 35
+    },
+    {
+      "name": "Click e2 highlights exactly e3 and e4",
+      "pass": true,
+      "ms": 62
+    },
+    {
+      "name": "Illegal empty destination does not move piece",
+      "pass": true,
+      "ms": 38
+    },
+    {
+      "name": "Human move, animated move, AI worker reply",
+      "pass": true,
+      "ms": 1324
+    },
+    {
+      "name": "Hint searches, draws arrow, never auto-plays",
+      "pass": true,
+      "ms": 882
+    },
+    {
+      "name": "Undo returns a whole turn to human and clears hint",
+      "pass": true,
+      "ms": 49
+    },
+    {
+      "name": "Blocked rook cannot jump pieces",
+      "pass": true,
+      "ms": 62
+    },
+    {
+      "name": "Capture target, projectile/particles, cleanup, correct capture",
+      "pass": true,
+      "ms": 851
+    },
+    {
+      "name": "En passant animates and removes pawn from its actual square",
+      "pass": true,
+      "ms": 829
+    },
+    {
+      "name": "Castling animates both king and rook",
+      "pass": true,
+      "ms": 520
+    },
+    {
+      "name": "Promotion offers 4 pieces, cancel leaves position unchanged",
+      "pass": true,
+      "ms": 422
+    },
+    {
+      "name": "Knight underpromotion and insufficient-material result dialog",
+      "pass": true,
+      "ms": 1195
+    },
+    {
+      "name": "Pinned piece UI shows only king-safe legal destinations",
+      "pass": true,
+      "ms": 231
+    },
+    {
+      "name": "Double check shows check warning; no invalid blocking moves",
+      "pass": true,
+      "ms": 158
+    },
+    {
+      "name": "Play Black: AI White opens, human-blue remains at bottom",
+      "pass": true,
+      "ms": 1526
+    },
+    {
+      "name": "New game resets position, side, history and pending jobs",
+      "pass": true,
+      "ms": 474
+    },
+    {
+      "name": "Undo during animation cancels effects and stale AI safely",
+      "pass": true,
+      "ms": 1621
+    },
+    {
+      "name": "Difficulty change during AI calculation never double-moves",
+      "pass": true,
+      "ms": 2419
+    },
+    {
+      "name": "New match discards old worker replies",
+      "pass": true,
+      "ms": 2934
+    },
+    {
+      "name": "Keyboard shortcuts, board navigation and modal Escape",
+      "pass": true,
+      "ms": 72
+    },
+    {
+      "name": "VFX toggle does not alter move legality or capture state",
+      "pass": true,
+      "ms": 231
+    },
+    {
+      "name": "Threefold draw claim UI ends the game without an extra move",
+      "pass": true,
+      "ms": 613
+    },
+    {
+      "name": "Save and restore payload reconstructs history and repetition (storage stub)",
+      "pass": true,
+      "ms": 604
+    },
+    {
+      "name": "Corrupt saved JSON recovers without breaking gameplay",
+      "pass": true,
+      "ms": 403
+    },
+    {
+      "name": "PGN export creates a readable move record",
+      "pass": true,
+      "ms": 36
+    },
+    {
+      "name": "Responsive viewport mobile 390×844, no page scroll",
+      "pass": true,
+      "ms": 356
+    },
+    {
+      "name": "Responsive viewport small-mobile 375×667, no page scroll",
+      "pass": true,
+      "ms": 334
+    },
+    {
+      "name": "Responsive viewport compact-mobile 320×568, no page scroll",
+      "pass": true,
+      "ms": 315
+    },
+    {
+      "name": "Responsive viewport tablet 768×1024, no page scroll",
+      "pass": true,
+      "ms": 458
+    },
+    {
+      "name": "Responsive viewport landscape 844×390, no page scroll",
+      "pass": true,
+      "ms": 323
+    },
+    {
+      "name": "Responsive viewport tablet-landscape 1024×768, no page scroll",
+      "pass": true,
+      "ms": 454
+    },
+    {
+      "name": "Responsive viewport laptop 1366×768, no page scroll",
+      "pass": true,
+      "ms": 454
+    },
+    {
+      "name": "Mobile drawer opens, difficulty changes, closes",
+      "pass": true,
+      "ms": 583
+    },
+    {
+      "name": "Resignation cancels active AI and shows result",
+      "pass": true,
+      "ms": 2141
+    },
+    {
+      "name": "No uncaught browser exceptions",
+      "pass": true,
+      "ms": 0
+    }
+  ],
+  "errors": []
+}
